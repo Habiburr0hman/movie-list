@@ -5,7 +5,7 @@ function showCards(m){
             </div>`
 }
 
-fetch('http://www.omdbapi.com/?apikey=b7d63215&s=detective')
+fetch('https://www.omdbapi.com/?apikey=b7d63215&s=detective')
     .then(response => response.json())
     .then(response => {
         const movies = response.Search;
